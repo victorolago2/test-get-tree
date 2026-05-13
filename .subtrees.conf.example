@@ -1,0 +1,16 @@
+# Sample Subtrees Configuration
+# Format: prefix:repository-url:branch
+
+# Logging library
+libs/logger:https://github.com/pinojs/pino.git:master
+
+# Utility library  
+libs/utils:https://github.com/lodash/lodash.git:master
+
+# Testing framework
+libs/test:https://github.com/facebook/jest.git:main
+
+# NOTE: Uncomment and modify these as needed for your project
+# libs/auth:https://github.com/example/auth-lib.git:main
+# libs/database:https://github.com/example/db-lib.git:develop
+# libs/ui:https://github.com/example/ui-components.git:main

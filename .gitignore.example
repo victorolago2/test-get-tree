@@ -1,0 +1,60 @@
+# Git Subtree Project .gitignore Example
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+.tmp/
+temp/
+
+# Build outputs (but NOT libs/ - those are subtrees!)
+dist/
+build/
+.next/
+out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Project specific
+.subtrees.conf
+!.subtrees.conf.example
+
+# NOTE: DO NOT add libs/ to .gitignore
+# libs/ contains git subtree content which should be committed
